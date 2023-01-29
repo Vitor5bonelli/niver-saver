@@ -1,13 +1,14 @@
 package com.example.niversaver.Model;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Aniversariante {
     private final String nome;
-    private final Date dataAniversario;
+    private final LocalDate dataAniversario;
     private String sugestoesPresente;
 
-    public Aniversariante(String nome, Date dataAniversario) {
+    public Aniversariante(String nome, LocalDate dataAniversario) {
         this.nome = nome;
         this.dataAniversario = dataAniversario;
     }
@@ -27,7 +28,7 @@ public class Aniversariante {
         return nome;
     }
 
-    public Date getDataAniversario() {
+    public LocalDate getDataAniversario() {
         return dataAniversario;
     }
 

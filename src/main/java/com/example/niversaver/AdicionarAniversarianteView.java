@@ -16,7 +16,7 @@ public class AdicionarAniversarianteView {
     public void ShowAndWait() throws IOException {
         Parent window = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("adicionarAniversariante.fxml")));
         Stage stage = new Stage();
-        Scene scene = new Scene(window, 500, 500);
+        Scene scene = new Scene(window, 283, 428);
 
         stage.setTitle("Adicionar Aniversariante!");
         stage.setScene(scene);

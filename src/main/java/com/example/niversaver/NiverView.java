@@ -1,5 +1,6 @@
 package com.example.niversaver;
 
+import com.example.niversaver.Persistence.NiverDAO;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -18,7 +19,7 @@ public class NiverView extends Application {
         primaryStage.setTitle("NiverSaver :D");
 
         Parent raiz = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("niver-fxml.fxml")));
-        primaryStage.setScene(new Scene(raiz, 500, 500));
+        primaryStage.setScene(new Scene(raiz, 580, 400));
         primaryStage.show();
     }
 

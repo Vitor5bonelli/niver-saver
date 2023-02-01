@@ -35,9 +35,15 @@ public class AdicionarAniversarianteController {
         for (Aniversariante aniversariante1 : dao.readAll()) {
             System.out.println(aniversariante1.toString());
         }
+
+        close();
     }
 
     public void cancelar(ActionEvent actionEvent) {
+        close();
+    }
+
+    public void close(){
         final Stage stage = (Stage) btnCancelar.getScene().getWindow();
         stage.close();
     }

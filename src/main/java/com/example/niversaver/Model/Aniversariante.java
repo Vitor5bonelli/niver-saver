@@ -17,7 +17,7 @@ public class Aniversariante {
     public String toString() {
         return  "\nNome: " + nome +
                 "\nData de Aniversário: " + dataAniversario +
-                "\nSugestoes para Presente='" + sugestoesPresente;
+                "\nSugestoes para Presente: " + sugestoesPresente;
     }
 
     public void setSugestoesPresente(String sugestoesPresente) {

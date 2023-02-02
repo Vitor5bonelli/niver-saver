@@ -7,14 +7,14 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="428.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.niversaver.Controller.AdicionarAniversarianteController">
+<AnchorPane prefHeight="466.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.niversaver.Controller.AdicionarAniversarianteController">
    <children>
       <Label layoutX="31.0" layoutY="40.0" text="Nome" />
       <TextField fx:id="txtNome" layoutX="31.0" layoutY="66.0" />
       <Label layoutX="33.0" layoutY="120.0" text="Data de Nascimento" />
       <Label layoutX="34.0" layoutY="209.0" text="Presentes Sugeridos" />
-      <Button fx:id="btnSalvarAniversariante" layoutX="33.0" layoutY="367.0" mnemonicParsing="false" onAction="#salvarAniversariante" text="Salvar" />
-      <Button fx:id="btnCancelar" layoutX="188.0" layoutY="367.0" mnemonicParsing="false" onAction="#cancelar" text="Cancelar" />
+      <Button fx:id="btnSalvarAniversariante" layoutX="31.0" layoutY="397.0" mnemonicParsing="false" onAction="#salvarAniversariante" text="Salvar" />
+      <Button fx:id="btnCancelar" layoutX="181.0" layoutY="397.0" mnemonicParsing="false" onAction="#cancelar" text="Cancelar" />
       <DatePicker fx:id="dtpickerDataNasc" layoutX="34.0" layoutY="155.0" />
       <TextArea fx:id="txtareaSugestoes" layoutX="34.0" layoutY="234.0" prefHeight="113.0" prefWidth="210.0" />
    </children>
